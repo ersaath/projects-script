@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    color: #aa7b7b;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    border: 1px solid rgb(199, 175, 175);
+
+}
+
+#headerbtn {
+    font-size: 25px;
+    background-color: #f0bfbf;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid #f0bfbf;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainbtn {
+    margin: 200px;
+    padding: 20px;
+    background-color: #f0bfbf;
+    border-radius: 10px;
+    border: 2px solid #f0bfbf;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+
+form#book-form {
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-size: 25px;
+    gap: 10px;
+    border-radius: 10px;
+
+
+
+}
+
+#book-form input {
+    padding: 15px 70px;
+    border-radius: 10px;
+    border: 2px solid #aa7b7b;
+
+}
+
+#book-form label {
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #aa7b7b;
+    border-radius: 10px;
+}
+
+form button {
+
+    background-color: #f0bfbf;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid #f0bfbf;
+
+
+}
+
+.library-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+#library-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px;
+    ;
+    gap: 10px;
+    border: 1px solid rgb(71, 62, 65);
+    border-radius: 10px;
+    font-size: 25px;
+
+}
+
+.book-card {
+    padding: 30px 40px;
+
+
+}
+
+.book-card h1 {
+    font-size: 20px;
+
+
+}
+
+
+.book-card p {
+    font-size: 18px;
+
+
+}
+
+.read,
+.remove-book {
+
+    background-color: #f0bfbf;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid #f0bfbf;
+    gap: 20px;
+    margin-top: 20px;
+
+
+}
